@@ -1,0 +1,153 @@
+@import url(https://fonts.googleapis.com/css2?family=Abel&display=swap);
+
+*{
+    margin: 0;
+}
+
+body{
+    background-color: white;
+    font-family: Abel;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    font-family: Abel;
+}
+
+header a{
+    text-decoration: none;
+    color: black
+}
+
+menu{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu img{
+    width: 10px;
+}
+
+#home{
+    display: flex;
+    justify-content: center;
+    background-color: #CAFAD9;
+    height: 450px;
+}
+
+#titulo{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-around;
+    width: 60%;
+    height: 400px;
+    margin-left: 10%;
+}
+
+#img_titulo img{
+    width: 100%;
+}
+
+#titulo h1{
+    width: 30%;
+    font-size: 2.3em;
+}
+
+#titulo p{
+    width: 40%;
+    font-size: 20px;
+}
+
+#p2{
+    width: 110%;
+    font-size: 20px;
+}
+
+#titulo a{
+    font-size: 1em;
+    padding: 1%;
+    width: 23%;
+    height:20px;
+    background-color: #7622D7;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    display: inline-block;
+}
+
+#recursos{
+    font-family: Abel;
+    text-align: center;
+    background-color: #F7F8F7;
+}
+
+#recursos img{
+    width: 10%;
+}
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: blueviolet;
+}
+
+#contrate {
+    background-color: #CAFAD9;
+    text-align: center;
+   padding-bottom: 30px;
+}
+
+#botao_contato {
+    color: white;
+    width: 120px;
+}
+
+#botao_curriculo {
+    background-color: #CAFAD9;
+}
+
+#contato {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .contact, .social {
+    flex-basis: 45%;
+  }
+  
+  .social-icons {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .social-icons li {
+    margin: 5px 0;
+  }
+  
+  .social-icons img {
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+  }
+  
+  #button{
+    color: #7622D7;
+  }
+  
